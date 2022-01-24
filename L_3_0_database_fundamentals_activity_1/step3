@@ -1,0 +1,3 @@
+UPDATE public.students
+	SET id=1, first_name='Ivan', middle_name='Ingram', last_name='Howard', age=25, location='Bulacan'
+	WHERE id=1;

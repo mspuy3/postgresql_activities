@@ -1,0 +1,2 @@
+DELETE FROM public.students
+	WHERE id=(SELECT MAX(id) FROM public.students);

@@ -1,0 +1,23 @@
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (1, 'Juan', DEFAULT, 'Cruz', 18, 'Manila');
+
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (2, 'Anne', DEFAULT, 'Wall', 20, 'Manila');
+
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (3, 'Theresa', DEFAULT, 'Joseph', 21, 'Manila');
+
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (4, 'Issac', DEFAULT, 'Gray', 19, 'Laguna');
+
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (5, 'Zack', DEFAULT, 'Matthews', 22, 'Marikina');
+
+INSERT INTO public.students(
+	id, first_name, middle_name, last_name, age, location)
+	VALUES (6, 'Finn', DEFAULT, 'Lam', 25, 'Manila');

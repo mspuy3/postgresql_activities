@@ -1,0 +1,19 @@
+-- Table: public.students
+
+-- DROP TABLE IF EXISTS public.students;
+
+CREATE TABLE IF NOT EXISTS public.students
+(
+    id integer NOT NULL,
+    first_name character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    middle_name character varying(255) COLLATE pg_catalog."default" DEFAULT 'Blank'::character varying,
+    last_name character varying(255) COLLATE pg_catalog."default" NOT NULL,
+    age integer NOT NULL,
+    location character varying COLLATE pg_catalog."default" NOT NULL,
+    CONSTRAINT students_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.students
+    OWNER to mspuy3;
