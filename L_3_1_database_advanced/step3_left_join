@@ -1,0 +1,16 @@
+SELECT
+	s.id,
+	s.first_name,
+	s.middle_name,
+	s.last_name,
+	c.id,
+	c.student_id,
+	c.section
+FROM 
+	public.students s
+LEFT JOIN 
+	public.classrooms c 
+ON 
+	c.student_id = s.id
+
+#Same results as inner join since left table (students) is a subset of the right table (classrooms)

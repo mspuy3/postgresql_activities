@@ -1,0 +1,16 @@
+SELECT
+	s.id,
+	s.first_name,
+	s.middle_name,
+	s.last_name,
+	c.id,
+	c.student_id,
+	c.section
+FROM 
+	public.students s
+INNER JOIN 
+	public.classrooms c 
+ON 
+	c.student_id = s.id
+
+#Shows all of left table (students) plus their sections from right table (classrooms)

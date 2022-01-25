@@ -1,0 +1,16 @@
+-- Table: public.classrooms
+
+-- DROP TABLE IF EXISTS public.classrooms;
+
+CREATE TABLE IF NOT EXISTS public.classrooms
+(
+    id integer NOT NULL,
+    student_id integer NOT NULL,
+    section "char" NOT NULL,
+    CONSTRAINT classrooms_pkey PRIMARY KEY (id)
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.classrooms
+    OWNER to mspuy3;

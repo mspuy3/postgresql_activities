@@ -1,0 +1,16 @@
+SELECT
+	s.id,
+	s.first_name,
+	s.middle_name,
+	s.last_name,
+	c.id,
+	c.student_id,
+	c.section
+FROM 
+	public.students s
+RIGHT JOIN 
+	public.classrooms c 
+ON 
+	c.student_id = s.id
+
+#Results from LEFT JOIN plus the rest of right table (classrooms) with NULLed non-joined rows
