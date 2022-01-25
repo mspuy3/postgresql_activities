@@ -1,0 +1,6 @@
+#Display the average `age` of all `students`
+
+SELECT 
+   AVG(age) 
+FROM 
+   public.students;

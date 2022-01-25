@@ -1,0 +1,6 @@
+#Display the count of all `students`
+
+SELECT 
+   COUNT(id) 
+FROM 
+   public.students;

@@ -1,0 +1,8 @@
+#Display all `students` by `age` descending order
+
+SELECT
+	*
+FROM 
+   public.students
+ORDER BY
+	age DESC;

@@ -1,0 +1,8 @@
+#Select all students with `location` is `Manila`
+
+SELECT
+	*
+FROM 
+   public.students
+WHERE
+	location= 'Manila';
